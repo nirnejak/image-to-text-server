@@ -1,4 +1,6 @@
-# Image to Text API
+<h1 align="center">
+  Image to Text API
+</h1>
 
 **Run Dev Server**
 
