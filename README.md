@@ -8,7 +8,7 @@
 uv run uvicorn main:app --reload
 ```
 
-**Run Dev Server**
+**Check Lint Issues**
 
 ```bash
 uv run ruff check
