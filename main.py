@@ -3,7 +3,12 @@ from fastapi import FastAPI, File, UploadFile
 import pytesseract
 from PIL import Image
 
+from .routers import users
+
 app = FastAPI()
+
+# Routes
+app.include_router(users.router)
 
 @app.get("/")
 async def root():
