@@ -14,6 +14,12 @@ uv run uvicorn main:app --reload
 uv run ruff check
 ```
 
+**Check Lint and Fix Issues**
+
+```bash
+uv run ruff check --fix
+```
+
 **Check Lint Issues**
 
 ```bash
