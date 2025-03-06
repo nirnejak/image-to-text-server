@@ -13,3 +13,9 @@ uv run uvicorn main:app --reload
 ```bash
 uv run ruff check
 ```
+
+**Check Lint Issues**
+
+```bash
+uv run ruff format
+```
